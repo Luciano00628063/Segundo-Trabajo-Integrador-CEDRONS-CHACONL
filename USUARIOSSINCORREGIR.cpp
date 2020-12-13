@@ -14,7 +14,7 @@ main()
 {
 	int opcion;
 	printf("Modulo Administracion");
-	printf("\=================================");
+	printf("\n=================================");
 	printf("\n1.- Registrar Veterinario");
 	printf("\n2.- Registrar Usuario Asistente");
 	printf("\n3.- Atenciones por Veterinario");
