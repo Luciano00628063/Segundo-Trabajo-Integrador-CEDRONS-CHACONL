@@ -132,18 +132,18 @@ int menu()
     
     int opcion;
     system("cls");
-    printf("\n\t\t\t==============================================================");
-    printf("\n\t\t\t      M O D U L O  C O N S U L T O R I O                      ");
-    printf("\n\t\t\t==============================================================");
-    printf("\n\t\t\t  1-INICIAR SESION                                            ");
-    printf("\n\t\t\t--------------------------------------------------------------");
-    printf("\n\t\t\t  2-VISUALIZAR LISTA DE ESPERA DE TURNOS (INFORME)            ");
-    printf("\n\t\t\t--------------------------------------------------------------");
-    printf("\n\t\t\t  3-REGISTRAR LA EVOLUCION DE LA MASCOTA                      ");
-    printf("\n\t\t\t--------------------------------------------------------------");
-    printf("\n\t\t\t  4-SALIR DE LA APLICACION                                    ");
-    printf("\n\t\t\t--------------------------------------------------------------");
-    printf("\n\t\t\t  INGRESE SU OPCION --> ");
+    printf("\n\t\t==============================================================");
+    printf("\n\t\t      M O D U L O  C O N S U L T O R I O                      ");
+    printf("\n\t\t==============================================================");
+    printf("\n\t\t  1-INICIAR SESION                                            ");
+    printf("\n\t\t--------------------------------------------------------------");
+    printf("\n\t\t  2-VISUALIZAR LISTA DE ESPERA DE TURNOS (INFORME)            ");
+    printf("\n\t\t--------------------------------------------------------------");
+    printf("\n\t\t  3-REGISTRAR LA EVOLUCION DE LA MASCOTA                      ");
+    printf("\n\t\t--------------------------------------------------------------");
+    printf("\n\t\t  4-SALIR DE LA APLICACION                                    ");
+    printf("\n\t\t--------------------------------------------------------------");
+    printf("\n\t\t  INGRESE SU OPCION --> ");
     scanf("%d",&opcion);
     
     return opcion;
