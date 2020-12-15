@@ -28,6 +28,7 @@ struct turno{
 	fecha cita;
 	int dni;
 	char evolucion[380];
+	bool estado=false;
 };
 
 void inicio(int &bandera);
@@ -43,7 +44,7 @@ main()
 	
 	do{
 		printf("==========================================");
-		printf("\n\t   Modulo Administracion");
+		printf("\n\t   Modulo Asistente");
 		printf("\n==========================================");
 		printf("\n1.- Iniciar Sesion.");
 		printf("\n2.- Registrar Mascota.");
@@ -291,7 +292,6 @@ void registroT()
 	
 	puntero=fopen("Turnos.dat","ab+");
 	fread(&ingreso,sizeof(ingreso),1,puntero);
-	printf("\nMatricula del veterinario: %d",ingreso.matricula);
 	
 	fclose(puntero);
 
@@ -475,7 +475,7 @@ void listado()
 		}
 	}	
 
-	printf("\n\nLISTADO ORDENADO POR VETERINARIO Y POR FECHA:");
+	printf("\n\nLISTADO ORDENADO POR VETERINARIO:");
 	for(i=0;i<k;i++)
 	{
 		if(a[i].matricula!=a[i-1].matricula) printf("\n\nMatricula %d: ",a[i].matricula);	
